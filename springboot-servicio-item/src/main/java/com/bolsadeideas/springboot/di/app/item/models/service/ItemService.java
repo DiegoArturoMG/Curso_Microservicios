@@ -3,7 +3,7 @@ package com.bolsadeideas.springboot.di.app.item.models.service;
 import java.util.List;
 
 import com.bolsadeideas.springboot.di.app.item.models.Item;
-import com.bolsadeideas.springboot.di.app.item.models.Producto;
+import com.bolsadeideas.springboot.di.app.commons.models.entity.Producto;
 
 public interface ItemService {
 	

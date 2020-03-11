@@ -1,5 +1,7 @@
 package com.bolsadeideas.springboot.di.app.item.models;
 
+import com.bolsadeideas.springboot.di.app.commons.models.entity.Producto;
+
 public class Item {
 
 	private Producto producto;

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.bolsadeideas.springboot.di.app.item.clientes.ProductoClienteRest;
 import com.bolsadeideas.springboot.di.app.item.models.Item;
-import com.bolsadeideas.springboot.di.app.item.models.Producto;
+import com.bolsadeideas.springboot.di.app.commons.models.entity.Producto;
 
 @Service("serviceFeign")
 public class ItemServiceFeign implements ItemService {
