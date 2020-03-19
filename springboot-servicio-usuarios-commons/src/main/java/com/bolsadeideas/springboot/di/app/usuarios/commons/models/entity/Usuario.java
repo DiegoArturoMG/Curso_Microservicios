@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.di.app.usuarios.models.entity;
+package com.bolsadeideas.springboot.di.app.usuarios.commons.models.entity;
 
 import java.io.Serializable;
 import java.util.List;
