@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.di.app.usuarios.commons.models.entity;
+package com.bolsadeideas.springboot.di.app.commons.usuarios.models.entity;
 
 import java.io.Serializable;
 
@@ -12,9 +12,9 @@ import javax.persistence.Table;
 @Entity
 @Table(name="roles")
 public class Role implements Serializable{
-
-	private static final long serialVersionUID = 2366586284032268858L;
 	
+	private static final long serialVersionUID = -4143535667478008521L;
+
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private Long id;
@@ -37,5 +37,5 @@ public class Role implements Serializable{
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-
+	
 }

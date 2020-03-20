@@ -1,4 +1,4 @@
-package com.bolsadeideas.springboot.di.app.usuarios.commons.models.entity;
+package com.bolsadeideas.springboot.di.app.commons.usuarios.models.entity;
 
 import java.io.Serializable;
 import java.util.List;
@@ -15,11 +15,12 @@ import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.UniqueConstraint;
 
+
 @Entity
 @Table(name="usuarios")
 public class Usuario implements Serializable{
-	
-	private static final long serialVersionUID = 1118978491948932316L;
+
+	private static final long serialVersionUID = 6912851390897236559L;
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -107,5 +108,5 @@ public class Usuario implements Serializable{
 	public void setEmail(String email) {
 		this.email = email;
 	}
-
+	
 }

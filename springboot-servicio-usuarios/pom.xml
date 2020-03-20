@@ -22,8 +22,8 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>com.bolsadeideas.springboot.app.usuarios.commons</groupId>
-			<artifactId>springboot-servicio-usuarios-commons</artifactId>
+			<groupId>com.bolsadeideas.springboot.app.commons.usuarios</groupId>
+			<artifactId>springboot-servicio-commons-usuarios</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>

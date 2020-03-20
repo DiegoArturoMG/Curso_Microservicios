@@ -1,11 +1,12 @@
-package com.bolsadeideas.springboot.di.app.usuarios.commons;
+package com.bolsadeideas.springboot.di.app.commons.usuarios;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 @SpringBootApplication
 @EnableAutoConfiguration(exclude = DataSourceAutoConfiguration.class)
-public class SpringbootServicioUsuariosCommonsApplication {
+public class SpringbootServicioCommonsUsuariosApplication {
 	
 }
